@@ -3,169 +3,157 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>CLEAN SPACES</title>
+<title>CLEAN SPACES | Professional Cleaning Services</title>
 
-<style>
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
-font-family:Arial,sans-serif;
-}
-
-body{
-background:#f5f5f5;
-}
-
-header{
-background:#0A84FF;
-color:white;
-padding:20px;
-display:flex;
-justify-content:space-between;
-align-items:center;
-}
-
-.logo{
-font-size:28px;
-font-weight:bold;
-}
-
-nav a{
-color:white;
-text-decoration:none;
-margin:0 15px;
-}
-
-.hero{
-background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url('https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=1200');
-background-size:cover;
-background-position:center;
-height:500px;
-display:flex;
-justify-content:center;
-align-items:center;
-text-align:center;
-color:white;
-}
-
-.hero h1{
-font-size:50px;
-}
-
-.hero p{
-margin-top:10px;
-font-size:20px;
-}
-
-.btn{
-margin-top:20px;
-display:inline-block;
-padding:15px 35px;
-background:#00C853;
-color:white;
-text-decoration:none;
-border-radius:8px;
-font-size:18px;
-}
-
-.services{
-padding:60px 10%;
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
-gap:20px;
-}
-
-.card{
-background:white;
-padding:25px;
-border-radius:12px;
-box-shadow:0 5px 15px rgba(0,0,0,.1);
-text-align:center;
-}
-
-.card h3{
-margin-bottom:10px;
-color:#0A84FF;
-}
-
-footer{
-background:#0A84FF;
-color:white;
-text-align:center;
-padding:25px;
-margin-top:40px;
-}
-</style>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
 </head>
 
 <body>
 
 <header>
-<div class="logo">CLEAN SPACES</div>
+
+<div class="logo">
+CLEAN SPACES
+</div>
 
 <nav>
+
 <a href="#">Home</a>
-<a href="#">Services</a>
-<a href="#">Price</a>
-<a href="#">Contact</a>
+<a href="#services">Services</a>
+<a href="#offers">Offers</a>
+<a href="#reviews">Reviews</a>
+<a href="#contact">Contact</a>
+
+<a href="booking.html" class="book-btn">
+Book Now
+</a>
+
 </nav>
+
 </header>
 
 <section class="hero">
 
-<div>
+<div class="hero-content">
 
-<h1>Professional Cleaning Services</h1>
+<h1>
+Professional Cleaning Services in Bangalore
+</h1>
 
-<p>Bangalore's Trusted Cleaning Company</p>
+<p>
+Home Cleaning • Bathroom Cleaning • Sofa Cleaning • Carpet Cleaning • Kitchen Cleaning • Office Cleaning
+</p>
 
-<a href="tel:9907581899" class="btn">Book Now</a>
+<div class="hero-buttons">
+
+<a href="booking.html" class="primary-btn">
+Book Service
+</a>
+
+<a href="tel:+919907581899" class="secondary-btn">
+Call Now
+</a>
+
+</div>
 
 </div>
 
 </section>
 
-<section class="services">
+<section id="services">
 
-<div class="card">
+<h2>
+Our Services
+</h2>
+
+<div class="service-grid">
+
+<div class="service-card">
+🏠
 <h3>Home Cleaning</h3>
+<p>Deep home cleaning by trained professionals.</p>
 </div>
 
-<div class="card">
+<div class="service-card">
+🚿
 <h3>Bathroom Cleaning</h3>
+<p>Complete bathroom stain removal.</p>
 </div>
 
-<div class="card">
+<div class="service-card">
+🛋️
 <h3>Sofa Cleaning</h3>
+<p>Shampoo and steam cleaning.</p>
 </div>
 
-<div class="card">
-<h3>Carpet Cleaning</h3>
+<div class="service-card">
+🛏️
+<h3>Mattress Cleaning</h3>
+<p>Dust mite removal.</p>
 </div>
 
-<div class="card">
-<h3>Kitchen Cleaning</h3>
-</div>
-
-<div class="card">
+<div class="service-card">
+🪟
 <h3>Window Cleaning</h3>
+<p>Crystal clear glass cleaning.</p>
 </div>
+
+<div class="service-card">
+🏢
+<h3>Office Cleaning</h3>
+<p>Professional office maintenance.</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="offers">
+
+<h2>Special Offers</h2>
+
+<div class="offer-box">
+
+<h3>Discount Offers</h3>
+
+<p>₹50–₹100 OFF on orders below ₹999</p>
+
+<p>10% OFF on ₹999 – ₹2,099</p>
+
+<p>20% OFF above ₹2,099</p>
+
+</div>
+
+</section>
+
+<section id="contact">
+
+<h2>Contact Us</h2>
+
+<p><strong>Owner:</strong> Joydeb Kar</p>
+
+<p><strong>Phone:</strong> +91 9907581899</p>
+
+<p><strong>Location:</strong> Bangalore</p>
+
+<a href="https://wa.me/919907581899">
+WhatsApp Booking
+</a>
 
 </section>
 
 <footer>
 
-<h2>CLEAN SPACES</h2>
-
-<p>Owner : Joydeb Kar</p>
-
-<p>📞 +91 9907581899</p>
-
-<p>📍 Bangalore</p>
+<p>
+© 2026 CLEAN SPACES | All Rights Reserved
+</p>
 
 </footer>
+
+<script src="script.js"></script>
 
 </body>
 </html>
